@@ -65,41 +65,41 @@ Installation & Running
    - Database Console: http://localhost:8080/h2-console
 
 Database Configuration
-spring.datasource.url=jdbc:h2:file:./Data/myDB;AUTO_SERVER=TRUE
-spring.datasource.driver-class-name=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
+- spring.datasource.url=jdbc:h2:file:./Data/myDB;AUTO_SERVER=TRUE
+- spring.datasource.driver-class-name=org.h2.Driver
+- spring.datasource.username=sa
+- spring.datasource.password=
 
 👤 Default Accounts
-Username	Password	Role	Access Level
-admin	admin123	ADMIN	Full system access
-mary	marypw	TEACHER	Lecture management
-john	johnpw	STUDENT	Student features
-jojo	jojopw	STUDENT	Student features
+-Username	Password	Role	Access Level
+-admin	admin123	ADMIN	Full system access
+-mary	marypw	TEACHER	Lecture management
+-john	johnpw	STUDENT	Student features
+-jojo	jojopw	STUDENT	Student features
 
 📁 Project Structure
-src/main/java/hkmu/wadd/
-├── controller/          # Web controllers & routing
-├── service/            # Business logic layer  
-├── dao/                # Database operations (Data Access Objects)
-├── model/              # Data models (User, Course, Poll, etc.)
-├── dto/                # Data Transfer Objects
-├── config/             # Application configuration
-├── validator/          # Input validation
-├── exception/          # Custom exception handling
-└── view/               # View models
+-src/main/java/hkmu/wadd/
+-├── controller/          # Web controllers & routing
+-├── service/            # Business logic layer  
+-├── dao/                # Database operations (Data Access Objects)
+-├── model/              # Data models (User, Course, Poll, etc.)
+-├── dto/                # Data Transfer Objects
+-├── config/             # Application configuration
+-├── validator/          # Input validation
+-├── exception/          # Custom exception handling
+-└── view/               # View models
 
-src/main/resources/
-├── static/css/         # CSS stylesheets
-├── i18n/               # Multi-language support (English & Chinese)
-├── sql/                # Database scripts
-└── application.properties 
+-src/main/resources/
+-├── static/css/         # CSS stylesheets
+-├── i18n/               # Multi-language support (English & Chinese)
+-├── sql/                # Database scripts
+-└── application.properties 
 
-src/main/webapp/WEB-INF/jsp/
-├── fragments/          # JSP template fragments
-└── *.jsp              # JSP view files
+-src/main/webapp/WEB-INF/jsp/
+-├── fragments/          # JSP template fragments
+-└── *.jsp              # JSP view files
 
-src/main/js/            # JavaScript files
+-src/main/js/            # JavaScript files
 
 
 
