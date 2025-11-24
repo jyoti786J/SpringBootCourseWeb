@@ -93,7 +93,7 @@ src/main/resources/
 ├── static/css/         # CSS stylesheets
 ├── i18n/               # Multi-language support (English & Chinese)
 ├── sql/                # Database scripts
-└── application.properties
+└── application.properties 
 
 src/main/webapp/WEB-INF/jsp/
 ├── fragments/          # JSP template fragments
